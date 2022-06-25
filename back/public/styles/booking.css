@@ -1,0 +1,28 @@
+.name_input {
+  width: 100%;
+  display: inline-flex;
+  justify-content: left;
+  padding: 10px;
+}
+
+.input_error {
+  margin: 0;
+  padding: 10px;
+  color: red;
+  display: none;
+}
+
+.name_input > label, .name_input > input {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: inline-block;
+}
+
+.name_input > p {
+  padding: 0px;
+}
+
+.input_box_error {
+  border-color: rgb(82, 0, 0);
+  background-color: red;
+}

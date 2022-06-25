@@ -1,0 +1,31 @@
+{
+  "name": "wycieczka",
+  "version": "1.0.0",
+  "description": "May biuiful app",
+  "repository": "-",
+  "main": "app.mjs",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "pug": "^3.0.2",
+    "sequelize": "^5.22.5",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon -e js,pug,mjs,css,html,json app.mjs"
+  },
+  "author": "Krzaq",
+  "license": "ISC"
+}
